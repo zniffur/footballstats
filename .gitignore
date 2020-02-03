@@ -4,3 +4,6 @@ env
 .coverage
 .cache
 __pycache__
+
+~*.xlsx
+.ipynb_checkpoints
