@@ -5,10 +5,7 @@ import requests
 
 
 def fs_do(resource, filter=''):
-    proxies = {
-        'http': "http://00917777:T2mT2m2!@lelapomi.telecomitalia.local:8080",
-        'https': "http://00917777:T2mT2m2!@lelapomi.telecomitalia.local:8080"
-    }
+    proxies = {}
     baseurl = "http://api.football-data.org/v2/"
     url = baseurl + resource
     if filter != '':
